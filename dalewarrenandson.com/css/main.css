@@ -5,8 +5,23 @@
    ========================================================================== */
 
 
+.header-text {
 
+	color: #669900;
+	text-align: center;
 
+}
+
+.tagline {
+
+	/*color: #fcad24;*/
+	
+}
+
+.contact-btn {
+
+	background: #fcad24;
+}
 
 
 
