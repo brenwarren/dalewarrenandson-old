@@ -5,6 +5,7 @@
    ========================================================================== */
 
 
+
 .header-text {
 
 	color: #669900;
@@ -14,43 +15,20 @@
 
 .tagline {
 
-	/*color: #fcad24;*/
+	font-size: 1em;
 	
 }
 
-.contact-btn {
-
-	background: #fcad24;
+.btn-round {
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	
+	position: relative;
 }
 
-
-.btn-big
-{
-box-sizing: border-box;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-/*border: 1.5px solid white;*/
-width: 80%;
-height: 75px;
-
-/*
--webkit-box-shadow: 7px 7px 25px rgba(50, 50, 50, 0.75);
--moz-box-shadow:    7px 7px 25px rgba(50, 50, 50, 0.75);
-box-shadow:         7px 7px 25px rgba(50, 50, 50, 0.75);
-*/
-
-/*font-family: 'Cabin Condensed', sans-serif;*/	
-font-size: 2.5em;
-
-padding: 10px;
-
-text-align: center;
-
-float: right;
-
-/* margin-top: 15px; */
-
+.glyphicon-lg {
+	font-size: 2.4em;
 }
 
 
