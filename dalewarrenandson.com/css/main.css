@@ -10,6 +10,8 @@
 
 	color: #669900;
 	text-align: center; 
+  text-shadow: 1px 1px #ffffff;
+
 
 }
 
@@ -78,7 +80,7 @@ width: 95%;
   background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
  
 
-  -webkit-filter: blur(5px);
+  -webkit-filter: blur(10px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
