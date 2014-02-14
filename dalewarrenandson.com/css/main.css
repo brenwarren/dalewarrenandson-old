@@ -1,7 +1,7 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   Brens custom styles
    ========================================================================== */
 
 
@@ -21,14 +21,6 @@
 	
 }
 
-.btn-round {
-	border-radius: 50%;
-	width: 45px;
-	height: 45px;
-	
-	position: relative;
-}
-
 .glyphicon-lg {
 	font-size: 2.4em;
 }
@@ -37,12 +29,16 @@
 	background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
 	min-height: 500px;
 	background-size: cover;
-	
-	
-
 }
 
-div.transbox
+.header-bg-img-xs{
+  background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.opaque-box-header  /* used for small displays only since blur background for
+other displays requires Fixed property which interferes with small display nav menu */
   {
   width: 80%;
   height:80%;
@@ -52,39 +48,22 @@ div.transbox
   filter:alpha(opacity=60); /* For IE8 and earlier */
   }
 
-div .blurbox{
-	width: 80%;
-  height:30%;
-	-webkit-filter: blur(15px);
-  -moz-filter: blur(15px);
-  -o-filter: blur(15px);
-  -ms-filter: blur(15px);
-  filter: blur(15px);
-   z-index: 1;
-}
-
-div.blur-content {
-	 z-index: 9999;
-}
-
 
 
 .background-img-blur {
+  background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
   position: fixed;
   left: 0;
   right: 0;
   z-index: 1;
-width: 95%;
+  width: 95%;
   min-height: 250px;
 
-  background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
- 
-
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+  -webkit-filter: blur(12px);
+  -moz-filter: blur(12px);
+  -o-filter: blur(12px);
+  -ms-filter: blur(12px);
+  filter: blur(12px);
 }
 
 .content {
@@ -95,5 +74,6 @@ width: 95%;
   margin-left: 20px;
   margin-right: 20px;
 }
+
 
 
