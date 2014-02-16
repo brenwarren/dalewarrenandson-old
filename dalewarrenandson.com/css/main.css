@@ -8,16 +8,19 @@
 
 .header-text {
 
-	color: #669900;
+	/*color: #669900; */
+  color: #ffffff;
 	text-align: center; 
-  text-shadow: 1px 1px #ffffff;
+  text-shadow: 5px 1px #000000;
 
 
 }
 
 .tagline {
 
-	font-size: 1em;
+	 font-size: 1em;
+  color: #000000;
+  text-align: right;
 	
 }
 
@@ -29,6 +32,7 @@
 	background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
 	min-height: 500px;
 	background-size: cover;
+  padding-top: 1px;
 }
 
 .header-bg-img-xs{
@@ -57,7 +61,7 @@ other displays requires Fixed property which interferes with small display nav m
   right: 0;
   z-index: 1;
   width: 95%;
-  min-height: 250px;
+  min-height: 140px;
 
   -webkit-filter: blur(12px);
   -moz-filter: blur(12px);
@@ -74,6 +78,24 @@ other displays requires Fixed property which interferes with small display nav m
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.services-img-row {
+  max-height: 230px;
+  margin-top: 20px;
+}
+
+.services-img-div {
+ position: absolute;
+ width: 100%;
+}
+
+.contact-btn {
+  float: right;
+}
+
+
+
+
 
 
 
