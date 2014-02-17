@@ -9,10 +9,9 @@
 .header-text {
 
 	/*color: #669900; */
-  color: #ffffff;
+  color: #ecf0f1;
 	text-align: center; 
-  text-shadow: 5px 1px #000000;
-
+  
 
 }
 
@@ -44,12 +43,11 @@
 .opaque-box-header  /* used for small displays only since blur background for
 other displays requires Fixed property which interferes with small display nav menu */
   {
-  width: 80%;
-  height:80%;
-  margin:30px 50px;
-  background-color:#ffffff;
-  opacity:0.6;
+  background-color:#e67e22;
+  opacity:0.8;
   filter:alpha(opacity=60); /* For IE8 and earlier */
+  text-align: right;
+  border-radius:7px;
   }
 
 
@@ -79,21 +77,9 @@ other displays requires Fixed property which interferes with small display nav m
   margin-right: 20px;
 }
 
-.services-img-row {
-  max-height: 230px;
-  margin-top: 20px;
-}
-
-.services-img-div {
- position: absolute;
- width: 100%;
-}
-
 .contact-btn {
   float: right;
 }
-
-
 
 
 
