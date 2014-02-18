@@ -43,10 +43,10 @@
 .opaque-box-header  /* used for small displays only since blur background for
 other displays requires Fixed property which interferes with small display nav menu */
   {
-  background-color:#e67e22;
+  background-color:#95A5A6;
   opacity:0.8;
   filter:alpha(opacity=60); /* For IE8 and earlier */
-  text-align: right;
+  text-align: end;
   border-radius:7px;
   }
 
@@ -81,7 +81,54 @@ other displays requires Fixed property which interferes with small display nav m
   float: right;
 }
 
+.left-container {
+  height: 225px;
+  width: 170px;
+  float: left;
+  padding: 30px 10px;
+  text-align: center;
+  color: #fff;
+
+
+ -webkit-border-radius: 5px 0 0 5px;
+-moz-border-radius: 5px 0 0 5px;
+-ms-border-radius: 5px 0 0 5px;
+-o-border-radius: 5px 0 0 5px;
+border-radius: 5px 0 0 5px;
 
 
 
+}
+
+.right-container {
+  height: 225px;
+  background-color: #fff;
+  margin-left: 10px;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  overflow: scroll;
+
+ -webkit-border-radius: 0 5px 5px 0;
+-moz-border-radius: 0 5px 5px 0;
+-ms-border-radius: 0 5px 5px 0;
+-o-border-radius: 0 5px 5px 0;
+border-radius: 0 5px 5px 0;
+}
+
+.info-box-icon {
+  font-size: 4em;
+  margin-left: 23%;
+  color: #fff;
+  vertical-align: middle;
+  
+} 
+
+.service-container {
+  margin-bottom: 0px;
+  padding: 0 30px;
+}
+
+.btn-lg:hover {
+  opacity: 0.8;
+}
 
