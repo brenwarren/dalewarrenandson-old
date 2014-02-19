@@ -51,6 +51,7 @@ other displays requires Fixed property which interferes with small display nav m
   }
 
 
+/*   background blur not used now.. it was not effective enough
 
 .background-img-blur {
   background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
@@ -75,14 +76,15 @@ other displays requires Fixed property which interferes with small display nav m
   z-index: 9999;
   margin-left: 20px;
   margin-right: 20px;
-}
+
+*/
 
 .contact-btn {
   float: right;
 }
 
 .left-container {
-  height: 225px;
+  height: inherit;
   width: 170px;
   float: left;
   padding: 30px 10px;
@@ -101,12 +103,11 @@ border-radius: 5px 0 0 5px;
 }
 
 .right-container {
-  height: 225px;
+  height: inherit;
   background-color: #fff;
   margin-left: 10px;
-  padding: 5px 10px;
-  margin-bottom: 30px;
-  overflow: scroll;
+  padding: 10px;
+  overflow: auto;
 
  -webkit-border-radius: 0 5px 5px 0;
 -moz-border-radius: 0 5px 5px 0;
@@ -126,9 +127,14 @@ border-radius: 0 5px 5px 0;
 .service-container {
   margin-bottom: 0px;
   padding: 0 30px;
+
+
 }
 
 .btn-lg:hover {
-  opacity: 0.8;
+  font-size: 1.5em;
 }
 
+.service-info-box {
+  height: 400px;
+}
