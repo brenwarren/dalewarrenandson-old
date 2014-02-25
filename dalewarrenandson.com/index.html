@@ -21,6 +21,11 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+      
+
+
+    
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -58,13 +63,13 @@
     
         <div class="jumbotron header-bg-img">
             <div class="container-fluid">
-               <h1 class="header-text">Dale Warren & Son</h1>
-              <div class="">
-                <h3 class="tagline text-primary opaque-box-header">Registered Plumbers & Heating Installers.</br>Wood. Gas. Oil. Burners. Fires.</br>Installation & Modifications.</br>Domestic & Commercial.</h3>
+              <h1 class="header-text">Dale Warren & Son</h1>
+              
+                <h3 class="tagline text-primary opaque-box-header">Registered Plumbers & <span style="color: #F9BF3B">Heating</span> Installers.</br><span style="color: #F2784B">Wood</span>. Gas. Oil. Burners. Fires.</br>Installation & Modifications.</br>Domestic & Commercial.</h3>
                 <p><a class="btn btn-primary btn-lg btn-success contact-btn">Contact us &raquo;</a></p>
-              </div>
-            </div> 
-        </div>
+              
+            </div>
+          </div>
 
 
         <div class="container-fluid well">
@@ -93,27 +98,70 @@
 
       <div class="container-fluid well row">
 
-        <div class="block-container col-md-6" style="height: 200px; margin-bottom: 5px">
+        <div class="block-container col-md-6" style="height:230px; margin-bottom: 5px">
 
-          <div class="left-container" style="background-color: #D2D7D3">
+          <div class="left-container" style="background-color: #D2D7D3" >
             <h3>Service Area</h3>
             <span class="col-xs-1 glyphicon glyphicon-record info-box-icon"></span>            
           </div> 
-          <div class="right-container"><p>We are based in Newtown in Powys, Mid Wales.
-Our normal service area extends to:
-Llanindloes, Welshpool, Montgomery, Llanfair Caereinion, Shrewsbury and surrounding areas.
-We can also reach out to cover most of the rest of Powys and Mid Wales.</p>
+          <div class="right-container">
+            <h3 class="visible-xs" style="background-color: #D2D7D3; padding: 5px; margin-top: 0px">Service Area</h3>
+            <button id="map-popover" type="button" style="margin-bottom: 5px" class="btn btn-default btn-block" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content='<img src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=08&size=250x300&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">'>
+            Service Area Map
+            </button>
+
+            <h4>Based in Newtown, Powys, Mid Wales.
+              <small><br>Also covering the following areas:</small></h4>
+            <p>Llanindloes, Welshpool, Montgomery, Llanfair Caereinion, Shrewsbury. Plus surrounding areas.
+            </p>
+
+
+            <button id="service-area-popover" type="button" style="margin-top: 5px" class="btn btn-info btn-block" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content='Please ask us. We can also reach out to cover most of the rest of Powys and Mid Wales.'>
+            Not sure if your location is covered?
+            </button>
+
+
+
+
+            <!-- Button trigger modal
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Google Map
+            </button>
+
+            <!-- Modal 
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Location & approximate service area</h4>
+              </div>
+              <div class="modal-body">
+                
+              <img src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=09&size=540x300&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            </div>
+            </div>
+
+            -->
+
           </div> 
 
         </div>
 
-        <div class="block-container col-md-6" style="height: 200px">
+        <div class="block-container col-md-6" style="height:230px">
 
           <div class="left-container" style="background-color: #95A5A6">
             <h3>Safety & Quality</h3>
             <span class="col-xs-1 glyphicon glyphicon-ok info-box-icon"></span>           
           </div> 
-          <div class="right-container"><p>lots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text text</p>
+          <div class="right-container">
+            <h3 class="visible-xs" style="background-color: #95A5A6; padding: 5px; margin-top: 0px">Safety & Quality</h3>
+            <p>lots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text text</p>
           </div>
 
         </div>  

@@ -51,14 +51,12 @@ other displays requires Fixed property which interferes with small display nav m
   }
 
 
-/*   background blur not used now.. it was not effective enough
+/* background blur not used now.. it was not effective enough 
 
-.background-img-blur {
+.blur-container > p {
   background-image: url("../inc/img/fireplace-a-in-empty-room-m.jpg");
-  position: fixed;
   left: 0;
   right: 0;
-  z-index: 1;
   width: 95%;
   min-height: 140px;
 
@@ -67,6 +65,8 @@ other displays requires Fixed property which interferes with small display nav m
   -o-filter: blur(12px);
   -ms-filter: blur(12px);
   filter: blur(12px);
+
+
 }
 
 .content {
@@ -98,9 +98,21 @@ other displays requires Fixed property which interferes with small display nav m
 -o-border-radius: 5px 0 0 5px;
 border-radius: 5px 0 0 5px;
 
-
-
 }
+
+@media (max-width: 767px) {
+  .left-container {
+    display: none !important;
+  }
+  tr.left-container {
+    display: none !important;
+  }
+  th.left-container,
+  td.left-container {
+    display: none !important;
+  }
+}
+
 
 .right-container {
   height: inherit;
@@ -135,6 +147,14 @@ border-radius: 0 5px 5px 0;
   font-size: 1.5em;
 }
 
+
 .service-info-box {
   height: 400px;
 }
+
+#map_canvas {
+        width: 500px;
+        height: 500px;
+      }
+
+
