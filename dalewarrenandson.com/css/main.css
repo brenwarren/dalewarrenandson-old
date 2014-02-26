@@ -5,6 +5,10 @@
    ========================================================================== */
 
 
+body {
+  background-color: #e8e8e8;
+}
+
 
 .header-text {
 
@@ -117,7 +121,7 @@ border-radius: 5px 0 0 5px;
 .right-container {
   height: inherit;
   background-color: #fff;
-  margin-left: 10px;
+  margin-left: 5px;
   padding: 10px;
   overflow: auto;
 
