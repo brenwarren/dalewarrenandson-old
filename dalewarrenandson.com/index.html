@@ -104,31 +104,18 @@
             <h3>Service Area</h3>
             <span class="col-xs-1 glyphicon glyphicon-record info-box-icon"></span>            
           </div> 
+
           <div class="right-container">
             <h3 class="visible-xs" style="background-color: #D2D7D3; padding: 5px; margin-top: 0px">Service Area</h3>
-            <button id="map-popover" type="button" style="margin-bottom: 5px" class="btn btn-default btn-block" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content='<img src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=08&size=250x300&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">'>
+
+            <!-- Button trigger modal -->
+
+            <button class="btn btn-default btn-block" data-toggle="modal" data-target="#myModal">
             Service Area Map
             </button>
 
-            <h4>Based in Newtown, Powys, Mid Wales.
-              <small><br>Also covering the following areas:</small></h4>
-            <p>Llanindloes, Welshpool, Montgomery, Llanfair Caereinion, Shrewsbury. Plus surrounding areas.
-            </p>
+            <!-- Modal to display google map -->
 
-
-            <button id="service-area-popover" type="button" style="margin-top: 5px" class="btn btn-info btn-block" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content='Please ask us. We can also reach out to cover most of the rest of Powys and Mid Wales.'>
-            Not sure if your location is covered?
-            </button>
-
-
-
-
-            <!-- Button trigger modal
-            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-            Google Map
-            </button>
-
-            <!-- Modal 
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
             <div class="modal-content">
@@ -147,7 +134,30 @@
             </div>
             </div>
 
+            
+
+            <!--  Popover to display map *** REMOVED SINCE IT WAS NO SO EFFECTIVE ON SMALL SCREENS***
+
+            <button id="map-popover" type="button" style="margin-bottom: 5px" class="btn btn-default btn-block" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content='<img src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=08&size=250x300&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">'>
+            Service Area Map
+            </button>
+
             -->
+
+            <h4>Based in Newtown, Powys, Mid Wales.
+              <small><br>Also covering the following areas:</small></h4>
+            <p>Llanindloes, Welshpool, Montgomery, Llanfair Caereinion, Shrewsbury. Plus surrounding areas.
+            </p>
+
+
+            <button id="service-area-popover" type="button" style="margin-top: 5px" class="btn btn-info btn-block" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content='Please ask us. We can also reach out to cover most of the rest of Powys and Mid Wales.'>
+            Not sure if your location is covered?
+            </button>
+
+
+
+
+            
 
           </div> 
 
