@@ -2,32 +2,30 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> 
+<!--<![endif]-->
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Dale Warren & Son Ltd</title>
-        <meta name="description" content="Registered Plumbers and Heating Installers. WOOD - GAS - OIL - BURNERS - FIRES. Installation & Modifications.">
-        <meta name="viewport" content="width=device-width">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Dale Warren & Son Ltd</title>
+      <meta name="description" content="Registered Plumbers and Heating Installers. WOOD - GAS - OIL - BURNERS - FIRES. Installation & Modifications.">
+      <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.css">
-        <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <style>
+          body {
+              padding-top: 50px;
+              padding-bottom: 20px;
+          }
+      </style>
+      <link rel="stylesheet" href="css/bootstrap-theme.css">
+      <link rel="stylesheet" href="css/main.css">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-      
-
-
-    
-
+      <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
-    <body>
+
+  <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -61,18 +59,18 @@
 
     <!-- Main jumbotron header section -->
     
-        <div class="jumbotron header-bg-img">
-            <div class="container-fluid">
-              <h1 class="header-text">Dale Warren & Son</h1>
-              
-                <h3 class="tagline text-primary opaque-box-header">Registered Plumbers & <span style="color: #F9BF3B">Heating</span> Installers.</br><span style="color: #F2784B">Wood</span>. Gas. Oil. Burners. Fires.</br>Installation & Modifications.</br>Domestic & Commercial.</h3>
-                <p><a class="btn btn-primary btn-lg btn-success contact-btn">Contact us &raquo;</a></p>
-              
-            </div>
-          </div>
+    <div class="jumbotron header-bg-img">
+        <div class="container-fluid">
+          <h1 class="header-text">Dale Warren & Son</h1>
+          <h3 class="tagline text-primary opaque-box-header">Registered Plumbers & <span style="color: #F9BF3B">Heating</span> Installers.</br><span style="color: #F2784B">Wood</span>. Gas. Oil. Burners. Fires.</br>Installation & Modifications.</br>Domestic & Commercial.</h3>
+          <p><a class="btn btn-primary btn-lg btn-success contact-btn">Contact us &raquo;</a></p>
+        </div>
+      </div>
 
+        <!-- Service buttons -->
 
         <div class="container-fluid well">
+
           <div class="row">
              <div class="col-xs-1 glyphicon glyphicon-fire glyphicon-lg">
               </div>
@@ -80,6 +78,7 @@
                   <p><a class="btn btn-lg btn-block" style="background-color: #F2784B; color: #FFF" href="#woodburners">Wood Burners</a></p>
                </div>
           </div>
+
           <div class="row">
               <div class="col-xs-1 glyphicon glyphicon-certificate glyphicon-lg">
               </div>
@@ -87,6 +86,7 @@
                   <p><a class="btn btn-lg btn-block" style="background-color: #F9BF3B; color: #FFF" href="#heating">Heating</a></p>
               </div>
           </div>
+
           <div class="row">
               <div class="col-xs-1 glyphicon glyphicon-tint glyphicon-lg">
               </div>
@@ -94,6 +94,7 @@
                   <p><a class="btn btn-lg btn-block" style="background-color: #66CC99; color: #FFF" href="#plumbing">Plumbing</a></p>
                </div>
           </div>
+
         </div>  
 
       <div class="container-fluid well row">
@@ -125,7 +126,14 @@
               </div>
               <div class="modal-body">
                 
-              <img src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=09&size=540x300&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">
+                <!-- google maps resolution and zoom for screens larger than 767 px -->
+
+              <img class="hidden-xs" src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=09&size=540x300&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">
+
+              <!-- google maps resolution and zoom for screens smaller than 768 px -->
+
+              <img class="visible-xs" src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=08&size=250x250&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">
+
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -136,7 +144,7 @@
 
             
 
-            <!--  Popover to display map *** REMOVED SINCE IT WAS NO SO EFFECTIVE ON SMALL SCREENS***
+            <!--  Popover to display map *** REMOVED SINCE IT WAS NOT SO EFFECTIVE ON SMALL SCREENS***
 
             <button id="map-popover" type="button" style="margin-bottom: 5px" class="btn btn-default btn-block" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content='<img src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=08&size=250x300&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">'>
             Service Area Map
@@ -149,6 +157,7 @@
             <p>Llanindloes, Welshpool, Montgomery, Llanfair Caereinion, Shrewsbury. Plus surrounding areas.
             </p>
 
+            <!-- pop over for tip on service area coverage -->
 
             <button id="service-area-popover" type="button" style="margin-top: 5px" class="btn btn-info btn-block" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content='Please ask us. We can also reach out to cover most of the rest of Powys and Mid Wales.'>
             Not sure if your location is covered?
@@ -162,6 +171,8 @@
           </div> 
 
         </div>
+
+        <!-- Safety & Quality container -->
 
         <div class="block-container col-md-6" style="height:230px">
 
@@ -178,6 +189,7 @@
 
       </div>
 
+      <!-- Services section -->
 
       <div id="woodburners" class="row container-fluid well service-container">
           <h2>Services</h2>
@@ -218,18 +230,17 @@
       <footer>
         <p>&copy; Company 2013</p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+    </div> <!-- /container -->        
 
-        <script src="js/vendor/bootstrap.min.js"></script>
-
-        <script src="js/main.js"></script>
-
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
 </html>
