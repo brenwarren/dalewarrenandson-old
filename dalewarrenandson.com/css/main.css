@@ -108,13 +108,6 @@ border-radius: 5px 0 0 5px;
   .left-container {
     display: none !important;
   }
-  tr.left-container {
-    display: none !important;
-  }
-  th.left-container,
-  td.left-container {
-    display: none !important;
-  }
 }
 
 
@@ -124,13 +117,36 @@ border-radius: 5px 0 0 5px;
   margin-left: 5px;
   padding: 10px;
   overflow: auto;
+}
 
- -webkit-border-radius: 0 5px 5px 0;
+/* ADDS ROUNDED CORNERS TO RIGHT HAND SIDE OF MAIN BOXES FOR 
+ALL SCREENS EXCEPT EXTRA SMALL SCRRENS */
+@media (min-width: 768px) {
+  .right-container {
+ -webkit-border-radius: 0px 5px 5px 0px;
 -moz-border-radius: 0 5px 5px 0;
 -ms-border-radius: 0 5px 5px 0;
 -o-border-radius: 0 5px 5px 0;
 border-radius: 0 5px 5px 0;
 }
+}
+
+/* ADDS ROUNDED CORNERS TO ALL FOR CORNERS OF MAIN BOXES 
+FOR EXTRA SMALL SCREENS BECAUSE THE LEFT HAND COLOURED BOX
+IS REMOVED FOR EXTRA SMALL SCREENS TO GIVE MORE SPACE. THIS 
+LEAVES SQUARED CORNERS ON THE LEFT EDGE OF THE BOX. 
+SO CSS EVENS THE LOOK AND ADDS ROUNDED CORNERS TO THAT LEFT EDGE.*/
+
+@media (max-width: 767px) {
+  .right-container {
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+-ms-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+}
+
 
 .info-box-icon {
   font-size: 4em;
@@ -141,10 +157,14 @@ border-radius: 0 5px 5px 0;
 } 
 
 .service-container {
-  margin-bottom: 0px;
-  padding: 0 30px;
+  margin-left: 2px;
+  margin-right: 2px;
 
 
+}
+
+.service-area-left {
+  margin-left: 2px;
 }
 
 .btn-lg:hover {
@@ -160,5 +180,6 @@ border-radius: 0 5px 5px 0;
         width: 500px;
         height: 500px;
       }
+
 
 
