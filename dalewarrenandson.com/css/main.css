@@ -119,32 +119,42 @@ border-radius: 5px 0 0 5px;
   overflow: auto;
 }
 
-/* ADDS ROUNDED CORNERS TO RIGHT HAND SIDE OF MAIN BOXES FOR 
-ALL SCREENS EXCEPT EXTRA SMALL SCRRENS */
+
+/*CHANGES FOR ALL SCREENS EXCEPT EXTRA SMALL SCREENS */
 @media (min-width: 768px) {
-  .right-container {
- -webkit-border-radius: 0px 5px 5px 0px;
--moz-border-radius: 0 5px 5px 0;
--ms-border-radius: 0 5px 5px 0;
--o-border-radius: 0 5px 5px 0;
-border-radius: 0 5px 5px 0;
-}
+
+    /* ADDS ROUNDED CORNERS TO RIGHT HAND SIDE OF MAIN BOXES*/
+    .right-container {
+      -webkit-border-radius: 0px 5px 5px 0px;
+      -moz-border-radius: 0 5px 5px 0;
+      -ms-border-radius: 0 5px 5px 0;
+      -o-border-radius: 0 5px 5px 0;
+      border-radius: 0 5px 5px 0;
+    }
+
+    /* ADDS BODY PADDING LEFT AND RIGHT FOR BIGGER SCREENS*/
+    body {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 }
 
-/* ADDS ROUNDED CORNERS TO ALL FOR CORNERS OF MAIN BOXES 
-FOR EXTRA SMALL SCREENS BECAUSE THE LEFT HAND COLOURED BOX
-IS REMOVED FOR EXTRA SMALL SCREENS TO GIVE MORE SPACE. THIS 
-LEAVES SQUARED CORNERS ON THE LEFT EDGE OF THE BOX. 
-SO CSS EVENS THE LOOK AND ADDS ROUNDED CORNERS TO THAT LEFT EDGE.*/
+/*CHANGES FOR ALL EXTRA SMALL SCREENS */
 
 @media (max-width: 767px) {
-  .right-container {
-    -webkit-border-radius: 5px 5px 5px 5px;
-    -moz-border-radius: 5px 5px 5px 5px;
--ms-border-radius: 5px 5px 5px 5px;
--o-border-radius: 5px 5px 5px 5px;
-border-radius: 5px 5px 5px 5px;
-}
+
+      /* ADDS ROUNDED CORNERS TO ALL FOR CORNERS OF MAIN BOXES 
+    FOR EXTRA SMALL SCREENS BECAUSE THE LEFT HAND COLOURED BOX
+    IS REMOVED FOR EXTRA SMALL SCREENS TO GIVE MORE SPACE. THIS 
+    LEAVES SQUARED CORNERS ON THE LEFT EDGE OF THE BOX. 
+    SO CSS EVENS THE LOOK AND ADDS ROUNDED CORNERS TO THAT LEFT EDGE.*/
+    .right-container {
+      -webkit-border-radius: 5px 5px 5px 5px;
+      -moz-border-radius: 5px 5px 5px 5px;
+      -ms-border-radius: 5px 5px 5px 5px;
+      -o-border-radius: 5px 5px 5px 5px;
+      border-radius: 5px 5px 5px 5px;
+    }
 }
 
 
