@@ -1,5 +1,7 @@
 
 // map popup 
 
-$('#map-popover').popover();
+//   $('#map-popover').popover();
+
+//  THIS IS FOR THE SERVICE AREA POPOVER - "Not sure if your location is covered?"
 $('#service-area-popover').popover();

@@ -20,10 +20,13 @@ body {
 }
 
 .tagline {
-
+  background-color: rgba(44, 62, 80,0.7);
 	 font-size: 1em;
-  color: #000000;
-  text-align: right;
+  color: #bdc3c7;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 60px;
+
 	
 }
 
@@ -51,7 +54,7 @@ other displays requires Fixed property which interferes with small display nav m
   opacity:0.8;
   filter:alpha(opacity=60); /* For IE8 and earlier */
   text-align: end;
-  border-radius:7px;
+  border-radius:5px;
   }
 
 
@@ -85,6 +88,7 @@ other displays requires Fixed property which interferes with small display nav m
 
 .contact-btn {
   float: right;
+  margin-right: 20px;
 }
 
 .left-container {
@@ -191,5 +195,15 @@ border-radius: 5px 0 0 5px;
         height: 500px;
       }
 
+
+
+.safety-bg-img{
+  background-image: url("../inc/img/oftec_hetas_gassafe_trans2.png");
+  min-height: 150px;
+  background-position: center;
+  opacity:0.7;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+
+}
 
 

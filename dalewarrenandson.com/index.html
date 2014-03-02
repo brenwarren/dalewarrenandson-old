@@ -57,15 +57,15 @@
       </div>
     </div>
 
-    <!-- Main jumbotron header section -->
+    <!--  START OF Main jumbotron header section -->
     
     <div class="jumbotron header-bg-img">
-        <div class="container-fluid">
-          <h1 class="header-text">Dale Warren & Son</h1>
-          <h3 class="tagline text-primary opaque-box-header">Registered Plumbers & <span style="color: #F9BF3B">Heating</span> Installers.</br><span style="color: #F2784B">Wood</span>. Gas. Oil. Burners. Fires.</br>Installation & Modifications.</br>Domestic & Commercial.</h3>
-          <p><a class="btn btn-primary btn-lg btn-success contact-btn">Contact us &raquo;</a></p>
-        </div>
+      <div class="container-fluid">
+        <h1 class="header-text">Dale Warren & Son</h1>
+        <p class="tagline">Registered Plumbers & <span style="color: #F9BF3B">Heating</span> Installers<br><br><br>Burners (<span style="color: #F2784B">Wood</span> Gas Oil) Fires Solar Biomass<br>Installation & Modifications<br><br><br><br><span style="font-size:1.3em; color: #fff;">Domestic & Commercial</span></p>
+        <p><a class="btn btn-primary btn-lg btn-primary contact-btn">Contact us</a></p>
       </div>
+    </div>
 
         <!-- Service buttons -->
 
@@ -97,7 +97,9 @@
 
         </div> 
 
-        <!-- SERVICE AREA AND SAFETY  & QUALITY  BOXES CONTAINER  --> 
+        <!--  END OF Main jumbotron header section -->
+
+        <!-- START OF SERVICE AREA AND SAFETY  & QUALITY  BOXES CONTAINER  --> 
 
       <div class="container-fluid row" style="">
 
@@ -122,28 +124,28 @@
             <!-- Modal to display google map -->
 
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Location & approximate service area</h4>
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Location & approximate service area</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                    <!-- google maps resolution and zoom for screens larger than 767 px -->
+
+                    <img class="hidden-xs" src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=09&size=540x300&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">
+
+                    <!-- google maps resolution and zoom for screens smaller than 768 px -->
+
+                    <img class="visible-xs" src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=08&size=250x250&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
               </div>
-              <div class="modal-body">
-                
-                <!-- google maps resolution and zoom for screens larger than 767 px -->
-
-              <img class="hidden-xs" src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=09&size=540x300&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">
-
-              <!-- google maps resolution and zoom for screens smaller than 768 px -->
-
-              <img class="visible-xs" src="http://maps.googleapis.com/maps/api/staticmap?center=Newtown,Powys&zoom=08&size=250x250&maptype=roadmap&markers=color:blue%7Clabel:D|Newtown,Powys&sensor=false">
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-            </div>
             </div>
 
             <!-- END OF POPOUT MODAL GOOGLE MAP -->
@@ -159,12 +161,11 @@
 
             <h5>Based in Newtown, Powys, Mid Wales.
               <small><br>Also covering the following areas:</small></h5>
-            <p>Llanindloes, Welshpool, Montgomery, Llanfair Caereinion, Shrewsbury. Plus surrounding areas.
-            </p>
+            <p>Llanindloes, Welshpool, Montgomery, Llanfair Caereinion, Shrewsbury.</p>
 
             <!-- pop over for tip on service area coverage -->
 
-            <button id="service-area-popover" type="button" style="margin-top: 5px" class="btn btn-info btn-block" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content='Please ask us. We can also reach out to cover most of the rest of Powys and Mid Wales.'>
+            <button id="service-area-popover" type="button" style="margin-top: 5px" class="btn btn-default btn-block" data-container="" data-toggle="popover" data-placement="bottom" data-html="true" data-content='Please ask us. We can also reach out to cover most of the rest of Powys and Mid Wales.'>
             Not sure if your location is covered?
             </button>
 
@@ -182,9 +183,58 @@
             <h3>Safety & Quality</h3>
             <span class="col-xs-1 glyphicon glyphicon-ok info-box-icon"></span>           
           </div> 
+
           <div class="right-container" style="margin-right: 2px">
             <h3 class="visible-xs" style="background-color: #95A5A6; padding: 5px; margin-top: 0px">Safety & Quality</h3>
-            <p>lots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text text</p>
+
+             <!--  START OF MODAL TO DISPLAY DETAILS FOR SAFETY AND QUALITY ORGANISATIONS  -->
+
+            <!-- Button trigger modal -->
+
+            <button class="btn btn-default btn-block" data-toggle="modal" data-target="#safetyModal">
+            Oftec, Hetas, Gas Safe authorised service provider
+            </button>
+
+           
+
+            <div class="modal fade" id="safetyModal" tabindex="-1" role="dialog" aria-labelledby="safetyModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="safetyModalLabel">Safety & Quality Standards</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                    <li><strong><a title="OFTEC" href="http://oftec.org/" target="_blank">OFTEC</a></strong></li>
+                    <span style="text-decoration: underline;"><a title="OFTEC" href="http://oftec.org" target="_blank">oftec.org</a></span>
+                    <blockquote><strong>OFTEC establishes the standards for competence within the domestic oil heating and cooking industry.
+
+                    By ensuring the quality of people and businesses working in this area OFTEC maintains standards for reputable companies and consumers alike.</strong></blockquote>
+                    
+                    <li><strong><a title="Gas Safe" href="http://www.gassaferegister.co.uk/" target="_blank">Gas Safe </a></strong></li>
+                    
+                    <span style="text-decoration: underline;"><a title="Gas Safe" href="http://www.gassaferegister.co.uk/" target="_blank">gassaferegister.co.uk</a></span>
+                    <blockquote><strong>Gas Safe is the official list of gas engineers who are registered to work safely and legally on boilers, cookers, fires and all other gas appliances.</strong></blockquote>
+                    
+                    <li><strong><a title="HETAS" href="http://www.hetas.co.uk/" target="_blank">HETAS</a></strong></li>
+                    
+                    <span style="text-decoration: underline;"><a title="HETAS" href="http://www.hetas.co.uk/" target="_blank">hetas.co.uk</a></span>
+                    <blockquote><strong>HETAS are the official body recognised by Government to approve biomass and solid fuel domestic heating appliances, fuels and services including the registration of competent installers and servicing businesses.</strong></blockquote>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!--  END OF MODAL TO DISPLAY DETAILS FOR SAFETY AND QUALITY ORGANISATIONS  -->
+
+            <div class="safety-bg-img" style=""></div>     
+           
+            </div>
           </div>
 
         </div>  
@@ -194,7 +244,7 @@
         <!-- END OF SERVICE AREA AND SAFETY  & QUALITY  BOXES CONTAINER  --> 
 
 
-      <!-- Services section -->
+      <!-- START OF Services section -->
 
       <div id="woodburners" class="row container-fluid service-container">
           <h2 style="margin-left: 2px">Services</h2>
@@ -224,9 +274,14 @@
             <div class="left-container" style="background-color: #66CC99">
               <h3>Plumbing</h3>
               <span class="col-xs-1 glyphicon glyphicon-tint info-box-icon"></span>
-              
             </div> 
-            <div class="right-container" style="padding-top: 30px"><p>lots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text textlots of text lots of text text text</p></div>   
+            <div class="right-container" style="padding-top: 30px"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>   
           </div>  
       </div>
 
