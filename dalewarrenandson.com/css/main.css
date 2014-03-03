@@ -22,7 +22,7 @@ body {
 .tagline {
   background-color: rgba(44, 62, 80,0.9);
 	 font-size: 1em;
-  color: #bdc3c7;
+  color: #ecf0f1;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 20px;
@@ -214,3 +214,6 @@ border-radius: 5px 0 0 5px;
 }
 
 
+ul > li{
+    display: inline-block;  
+  }
