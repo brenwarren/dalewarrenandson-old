@@ -20,13 +20,15 @@ body {
 }
 
 .tagline {
-  background-color: rgba(44, 62, 80,0.7);
+  background-color: rgba(44, 62, 80,0.9);
 	 font-size: 1em;
   color: #bdc3c7;
   text-align: center;
   padding-top: 5px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
+  margin-left: 200px;
 
+  
 	
 }
 
@@ -87,8 +89,8 @@ other displays requires Fixed property which interferes with small display nav m
 */
 
 .contact-btn {
-  float: right;
-  margin-right: 20px;
+  
+  margin-top: 10px;
 }
 
 .left-container {
@@ -158,6 +160,11 @@ border-radius: 5px 0 0 5px;
       -ms-border-radius: 5px 5px 5px 5px;
       -o-border-radius: 5px 5px 5px 5px;
       border-radius: 5px 5px 5px 5px;
+    }
+
+    .tagline {
+      font-size: 0.8em;
+      margin-left: 0px;
     }
 }
 
