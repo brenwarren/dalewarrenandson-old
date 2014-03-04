@@ -20,7 +20,7 @@ body {
 }
 
 .tagline {
-  background-color: rgba(44, 62, 80,0.9);
+  background-color: rgba(44, 62, 80,0.95);
 	 font-size: 1em;
   color: #ecf0f1;
   text-align: center;
@@ -34,6 +34,7 @@ body {
 
 .glyphicon-lg {
 	font-size: 2.4em;
+  #34495e
 }
 
 .header-bg-img {
@@ -165,6 +166,16 @@ border-radius: 5px 0 0 5px;
     .tagline {
       font-size: 0.8em;
       margin-left: 0px;
+
+    }
+
+    .services-text-box {  
+
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
     }
 }
 
@@ -213,7 +224,25 @@ border-radius: 5px 0 0 5px;
 
 }
 
+.woodburner-right-container{
+  
+  background-image: url('../inc/img/woodburner-and-logs.jpg');
+  background-size: cover;
 
-ul > li{
-    display: inline-block;  
-  }
+
+}
+
+.services-text-box {
+
+  background-color: rgba(236, 240, 241,0.8); 
+  padding: 10px; 
+ 
+
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -ms-border-radius: 0 5px 0 0;
+  -o-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;
+}
+
+
