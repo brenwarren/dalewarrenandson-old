@@ -126,18 +126,40 @@ border-radius: 5px 0 0 5px;
   overflow: auto;
 }
 
+.right-container-services {
+  height: inherit;
+  margin-left: 5px;
+  padding-top: 10px;
+  overflow: auto;
+}
 
 /*CHANGES FOR ALL SCREENS EXCEPT EXTRA SMALL SCREENS */
 @media (min-width: 768px) {
 
     /* ADDS ROUNDED CORNERS TO RIGHT HAND SIDE OF MAIN BOXES*/
-    .right-container {
+    .right-container, .right-container-services {
       -webkit-border-radius: 0px 5px 5px 0px;
       -moz-border-radius: 0 5px 5px 0;
       -ms-border-radius: 0 5px 5px 0;
       -o-border-radius: 0 5px 5px 0;
       border-radius: 0 5px 5px 0;
     }
+
+    .right-container-services {
+      padding-right: 80px;
+    }
+
+    .services-text-box {  
+
+  
+      -webkit-border-radius: 0 5px 5px 0;
+      -moz-border-radius: 0 5px 5px 0;
+      -ms-border-radius: 0 5px 5px 0;
+      -o-border-radius: 0 5px 5px 0;
+      border-radius: 0 5px 5px 0;
+    }
+
+    
 
     /* ADDS BODY PADDING LEFT AND RIGHT FOR BIGGER SCREENS*/
     body {
@@ -163,20 +185,17 @@ border-radius: 5px 0 0 5px;
       border-radius: 5px 5px 5px 5px;
     }
 
+    .right-container-services {
+      padding-right: 0px;
+    }
+
     .tagline {
       font-size: 0.8em;
       margin-left: 0px;
 
     }
 
-    .services-text-box {  
 
-  -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  -ms-border-radius: 5px 5px 0 0;
-  -o-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
-    }
 }
 
 
@@ -230,30 +249,53 @@ border-radius: 5px 0 0 5px;
   background-size: cover;
 
 
+
 }
+
+.heating-right-container{
+  
+  background-image: url('../inc/img/solar-panels-on-roof.jpg');
+  background-size: cover;
+}
+
+
+.plumbing-right-container{
+  
+  background-image: url('../inc/img/industrial-boiler-room.jpg');
+  background-size: cover;
+}
+
+
 
 .services-text-box {
 
-  background-color: rgba(236, 240, 241,0.8); 
+  background-color: rgba(236, 240, 241,0.9); 
   padding-top: 10px;
   padding-bottom: 30px;
   padding-left: 60px;
   font-size: 1.2em;
  
 
-  -webkit-border-radius: 0 5px 0 0;
-  -moz-border-radius: 0 5px 0 0;
-  -ms-border-radius: 0 5px 0 0;
-  -o-border-radius: 0 5px 0 0;
-  border-radius: 0 5px 0 0;
 }
 
 .btn-bren-flat-turquoise {
-  background-color: #7f8c8d;
+  background-color: #bdc3c7;
   margin-left: 15px;
   padding: 5px;
  line-height: 180%;
+ color: inherit;
   
 }
 
+.btn-bullet-1 {
+   
+  font-size: 2em; 
+  margin-right: 5px; 
+  float:left; 
+  vertical-align: middle;
+  
+}
 
+.btn-bren-flat-turquoise:hover {
+  font-weight: bold;
+}
