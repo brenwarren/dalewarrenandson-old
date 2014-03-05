@@ -94,6 +94,18 @@ other displays requires Fixed property which interferes with small display nav m
   margin-top: 10px;
 }
 
+.woodburner-bg-color {
+  background-color: #F2784B;
+}
+
+.heating-bg-color {
+  background-color: #66CC99;
+}
+
+.plumbing-bg-color {
+  background-color: #2980b9;
+}
+
 .left-container {
   height: inherit;
   width: 170px;
@@ -122,14 +134,13 @@ border-radius: 5px 0 0 5px;
   height: inherit;
   background-color: #fff;
   margin-left: 5px;
-  padding: 10px;
   overflow: auto;
+  padding: 5px;
 }
 
 .right-container-services {
   height: inherit;
   margin-left: 5px;
-  padding-top: 10px;
   overflow: auto;
 }
 
@@ -147,6 +158,7 @@ border-radius: 5px 0 0 5px;
 
     .right-container-services {
       padding-right: 80px;
+      padding-top: 10px;
     }
 
     .services-text-box {  
@@ -187,6 +199,7 @@ border-radius: 5px 0 0 5px;
 
     .right-container-services {
       padding-right: 0px;
+      padding-top: 0px;
     }
 
     .tagline {
@@ -194,6 +207,17 @@ border-radius: 5px 0 0 5px;
       margin-left: 0px;
 
     }
+
+    .services-text-box {
+      margin-top: 0px;
+    }
+
+    .service-box-header-xs {
+      padding: 10px; 
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    
 
 
 }
@@ -225,6 +249,7 @@ border-radius: 5px 0 0 5px;
 
 .service-info-box {
   height: 400px;
+
 }
 
 #map_canvas {
@@ -269,7 +294,7 @@ border-radius: 5px 0 0 5px;
 
 .services-text-box {
 
-  background-color: rgba(236, 240, 241,0.9); 
+  background-color: rgba(236, 240, 241,0.85); 
   padding-top: 10px;
   padding-bottom: 30px;
   padding-left: 60px;
@@ -299,3 +324,5 @@ border-radius: 5px 0 0 5px;
 .btn-bren-flat-turquoise:hover {
   font-weight: bold;
 }
+
+
