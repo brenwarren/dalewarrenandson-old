@@ -161,9 +161,15 @@ border-radius: 5px 0 0 5px;
        height: inherit;
     }
 
+
+    .service-info-box {
+      height: 400px;
+
+    }
+
     .services-text-box {  
 
-  
+      background-color: rgba(236, 240, 241,0.9);
       -webkit-border-radius: 0 5px 5px 0;
       -moz-border-radius: 0 5px 5px 0;
       -ms-border-radius: 0 5px 5px 0;
@@ -203,6 +209,7 @@ border-radius: 5px 0 0 5px;
       overflow: auto;
     }
 
+
     .tagline {
       font-size: 0.8em;
       margin-left: 0px;
@@ -211,6 +218,7 @@ border-radius: 5px 0 0 5px;
 
     .services-text-box {
       margin-top: 0px;
+      background-color: rgba(236, 240, 241,0.9);
     }
 
     .service-box-header-xs {
@@ -248,10 +256,6 @@ border-radius: 5px 0 0 5px;
 }
 
 
-.service-info-box {
-  height: 400px;
-
-}
 
 #map_canvas {
         width: 500px;
@@ -295,7 +299,7 @@ border-radius: 5px 0 0 5px;
 
 .services-text-box {
 
-  background-color: rgba(236, 240, 241,0.85); 
+   
   padding-top: 10px;
   padding-bottom: 30px;
   padding-left: 60px;
