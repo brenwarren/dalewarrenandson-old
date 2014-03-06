@@ -139,7 +139,6 @@ border-radius: 5px 0 0 5px;
 }
 
 .right-container-services {
-  height: inherit;
   margin-left: 5px;
   overflow: auto;
 }
@@ -159,6 +158,7 @@ border-radius: 5px 0 0 5px;
     .right-container-services {
       padding-right: 80px;
       padding-top: 10px;
+       height: inherit;
     }
 
     .services-text-box {  
@@ -200,6 +200,7 @@ border-radius: 5px 0 0 5px;
     .right-container-services {
       padding-right: 0px;
       padding-top: 0px;
+      overflow: auto;
     }
 
     .tagline {
