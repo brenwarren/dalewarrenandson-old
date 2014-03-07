@@ -13,22 +13,21 @@ body {
 .header-text {
 
 	/*color: #669900; */
+  font-size: 3em;
   color: #ecf0f1;
 	text-align: center; 
   
 
 }
 
-.tagline {
+.tagline-box {
   background-color: rgba(44, 62, 80,0.95);
 	 font-size: 1em;
   color: #ecf0f1;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 20px;
-  margin-left: 200px;
-
-  
+  margin-left: 200px; 
 	
 }
 
@@ -92,6 +91,14 @@ other displays requires Fixed property which interferes with small display nav m
 .contact-btn {
   
   margin-top: 10px;
+}
+
+.contact-btn:hover {
+  font-weight: 500;
+}
+
+.btn-lg {
+  box-shadow: 3px 3px 5px #7f8c8d;
 }
 
 .woodburner-bg-color {
@@ -210,7 +217,7 @@ border-radius: 5px 0 0 5px;
     }
 
 
-    .tagline {
+    .tagline-box {
       font-size: 0.8em;
       margin-left: 0px;
 
@@ -252,8 +259,16 @@ border-radius: 5px 0 0 5px;
 }
 
 .btn-lg:hover {
-  font-size: 1.5em;
+  font-weight: 500;
 }
+
+.btn-block:hover {
+  color: #fff;
+  font-weight: 500;
+
+}
+
+
 
 
 
@@ -308,12 +323,13 @@ border-radius: 5px 0 0 5px;
 
 }
 
-.btn-bren-flat-turquoise {
+.btn-more-services {
   background-color: #bdc3c7;
   margin-left: 15px;
   padding: 5px;
  line-height: 180%;
  color: inherit;
+ box-shadow: 2px 2px 3px #7f8c8d;
   
 }
 
@@ -326,8 +342,28 @@ border-radius: 5px 0 0 5px;
   
 }
 
-.btn-bren-flat-turquoise:hover {
-  font-weight: bold;
+
+.btn-more-services:hover {
+  color: #fff;
 }
+
+.btn-bren-grey {
+  background-color: #bdc3c7;
+  padding: 5px;
+ line-height: 180%;
+ color: inherit;
+ box-shadow: 2px 2px 3px #7f8c8d;
+  
+}
+
+.btn-bren-darkgrey {
+  background-color: #7f8c8d;
+  padding: 5px;
+ line-height: 180%;
+ color: inherit;
+ box-shadow: 2px 2px 3px #7f8c8d;
+  
+}
+
 
 
