@@ -14,10 +14,22 @@ body {
 
 	/*color: #669900; */
   font-size: 3em;
-  color: #ecf0f1;
+  color: #A3C737;
 	text-align: center; 
   
 
+}
+
+h1.tagline {
+  font-size: 1em; 
+  font-weight: 200; 
+  color: #FFB46C;
+}
+
+h2.tagline {
+   font-size: 1.3em; 
+  font-weight: 200; 
+  color: #7f8c8d;
 }
 
 .tagline-box {
@@ -114,7 +126,7 @@ other displays requires Fixed property which interferes with small display nav m
 }
 
 .plumbing-bg-color {
-  background-color: #2980b9;
+  background-color: #ADEBFC;
 }
 
 .left-container {
